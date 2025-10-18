@@ -1,0 +1,16 @@
+<svg id="Grupo_1113310" data-name="Grupo 1113310" xmlns="http://www.w3.org/2000/svg" width="559" height="259" viewBox="0 0 559 259">
+  <g id="Grupo_1099309" data-name="Grupo 1099309" transform="translate(0 0)">
+    <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H550a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" fill="#3a1d71"/>
+    <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H559a0,0,0,0,1,0,0V195a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+    <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" transform="translate(32 19)" fill="#fb130d"/>
+    <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(53 19)" fill="#fecd02"/>
+    <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(74 19)" fill="#43dfaa"/>
+  </g>
+  <text id="_empleado_:_id_:_1_nombre_:_Ana_López_edad_:_28_departamento_:_Marketing_habilidades_:_SEO_Redes_Sociales_Analytics_" data-name="{ 
+&quot;empleado&quot;: { &quot;id&quot;: 1,
+ &quot;nombre&quot;: &quot;Ana López&quot;,
+ &quot;edad&quot;: 28,
+ &quot;departamento&quot;: &quot;Marketing&quot;,
+ &quot;habilidades&quot;: [&quot;SEO&quot;, &quot;Redes Sociales&quot;, &quot;Analytics&quot;] } 
+}" transform="translate(34 75)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">{ </tspan><tspan x="0" y="39">&quot;empleado&quot;: { &quot;id&quot;: 1,</tspan><tspan x="0" y="63" xml:space="preserve"> &quot;nombre&quot;: &quot;Ana López&quot;,</tspan><tspan x="0" y="87" xml:space="preserve"> &quot;edad&quot;: 28,</tspan><tspan x="0" y="111" xml:space="preserve"> &quot;departamento&quot;: &quot;Marketing&quot;,</tspan><tspan x="0" y="135" xml:space="preserve"> &quot;habilidades&quot;: [&quot;SEO&quot;, &quot;Redes Sociales&quot;, &quot;Analytics&quot;] } </tspan><tspan x="0" y="159">}</tspan></text>
+</svg>

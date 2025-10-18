@@ -1,0 +1,22 @@
+<svg id="Grupo_1113331" data-name="Grupo 1113331" xmlns="http://www.w3.org/2000/svg" width="559" height="403" viewBox="0 0 559 403">
+  <g id="Grupo_1099309" data-name="Grupo 1099309" transform="translate(0 0)">
+    <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H550a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" fill="#3a1d71"/>
+    <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H559a0,0,0,0,1,0,0V339a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+    <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" transform="translate(32 19)" fill="#fb130d"/>
+    <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(53 19)" fill="#fecd02"/>
+    <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(74 19)" fill="#43dfaa"/>
+  </g>
+  <text id="_usuario_id_usr123_nombre_Ana_Pérez_nombre_email_ana.perez_example.com_email_activa_true_activa_pedidos_pedido_id_ped001_total_49.99_total_pedido_pedido_id_ped002_total_120.50_total_pedido_pedidos_usuario_" data-name="&lt;usuario id=&quot;usr123&quot;&gt; 
+&lt;nombre&gt;Ana Pérez&lt;/nombre&gt; 
+&lt;email&gt;ana.perez@example.com&lt;/email&gt; 
+&lt;activa&gt;true&lt;/activa&gt; 
+&lt;pedidos&gt; 
+&lt;pedido id=&quot;ped001&quot;&gt; 
+&lt;total&gt;49.99&lt;/total&gt; 
+&lt;/pedido&gt; 
+&lt;pedido id=&quot;ped002&quot;&gt; 
+&lt;total&gt;120.50&lt;/total&gt; 
+&lt;/pedido&gt; 
+&lt;/pedidos&gt; 
+&lt;/usuario&gt;" transform="translate(34 75)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">&lt;usuario id=&quot;usr123&quot;&gt; </tspan><tspan x="0" y="39">&lt;nombre&gt;Ana Pérez&lt;/nombre&gt; </tspan><tspan x="0" y="63">&lt;email&gt;ana.perez@example.com&lt;/email&gt; </tspan><tspan x="0" y="87">&lt;activa&gt;true&lt;/activa&gt; </tspan><tspan x="0" y="111">&lt;pedidos&gt; </tspan><tspan x="0" y="135">&lt;pedido id=&quot;ped001&quot;&gt; </tspan><tspan x="0" y="159">&lt;total&gt;49.99&lt;/total&gt; </tspan><tspan x="0" y="183">&lt;/pedido&gt; </tspan><tspan x="0" y="207">&lt;pedido id=&quot;ped002&quot;&gt; </tspan><tspan x="0" y="231">&lt;total&gt;120.50&lt;/total&gt; </tspan><tspan x="0" y="255">&lt;/pedido&gt; </tspan><tspan x="0" y="279">&lt;/pedidos&gt; </tspan><tspan x="0" y="303">&lt;/usuario&gt;</tspan></text>
+</svg>

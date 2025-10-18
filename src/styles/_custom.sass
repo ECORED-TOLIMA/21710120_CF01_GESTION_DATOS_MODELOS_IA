@@ -2,18 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 30%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 71%
+    right: 8%
 
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
   
@@ -22,6 +23,330 @@
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
     background-size: cover
     background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+
+.banner-principal__row .banner-principal__img
+  width: 435px !important  
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black !important   
   
-.txt--green
-  color: #39A900 !important
+figcaption
+  font-weight: normal
+
+.BG03
+  background-color: #B5CCAD
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-paginas.png") !important
+
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+///////////// Organizar las litas --------------------------------------------------
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+  display: flex
+
+.list-color li  
+  display: block
+
+.titulo-2, .titulo-1
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+
+.titulo-1
+  background-color: #FE9AB8
+  color: #12263F
+  padding: 4px 10px
+
+.titulo-2
+  background-color: #FFD6E3
+  color: #000
+  padding: 8px 16px
+  border-radius: 16px
+  font-weight: 700
+  font-size: 1rem
+  line-height: 1.4
+
+.titulo-2 img
+  width: 40px
+  height: 40px
+  margin-right: 12px
+
+.tarjeta--BG04
+  background-image: url("../assets/curso/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.p-relative, .p-relative *
+  position: relative
+
+.fondo_code
+  background-image: url("../assets/curso/tema1/code.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: relative
+  border-radius: 16px
+  p
+    color: white !important
+
+.tarjeta-avatar-slide
+  overflow-x: hidden
+  &:hover
+    .tarjeta-avatar-slide__img
+      transform: translateX(-50%)
+  &__img
+    display: flex
+    width: 200%
+    position: relative
+    transition: transform 0.3s ease-in-out
+    &__item
+      flex: 1
+      display: flex
+      justify-content: center
+
+// Tarjeta deslizamiento arriba - abajo 
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &__card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    min-height: auto
+    left: 0
+    bottom: 0%
+    transform: translateY(calc(100% - 3.7rem))
+    padding: 1.5rem
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up__card
+      transform: translateY(0)
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+
+.tarjeta
+  border-radius: 20px
+  &--BGC01
+    background-color: $BGC01
+
+// Tarjetas BG -------------------------------------
+.bg-1
+  background-image: url(../assets/curso/bg1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
+//// Tarjetas con cambio de color --------------------------------------
+
+.img90
+  width: 80px 
+.img100
+  width: 90px
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-image: url('../assets/curso/tema1/BG01.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)  
+      background-image: url('../assets/curso/tema1/BG02.svg')
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle
+        &::before
+          background-color: #FFEBF1
+          border: 4px solid $color-acento-contenido
+          border-radius: 10px
+
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #F1FF64
+    border: 4px solid $color-acento-contenido
+    border-radius: 10px
+
+// TARJETAS CON AVATAR
+.tarjeta-avatar
+  height: 100%
+  position: relative
+  padding-top: $tarjeta-avatar-ancho-img / 2
+  & > img
+    position: absolute
+    left: 50%
+    top: 0
+    transform: translateX(-50%)
+    display: block
+    width: $tarjeta-avatar-ancho-img
+    margin: 0 auto
+
+  .tarjeta
+    display: inline-block
+    padding-top: 60px !important
+    height: 100%
+
+//- tarjetas cambio de color HOVER
+.bg
+  &-c1
+    background-color: #DBF5FF
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    transition: all 0.5s ease
+    height: 240px
+    @media screen and (max-width: $bp-max-xl)
+      p.text-desc
+        font-size: 0.9em
+    @media screen and (max-width: $bp-max-lg)
+      height: 310px
+      p.text-desc
+        font-size: 0.9em
+    @media screen and (max-width: $bp-max-md)
+      height: auto
+      p.text-desc
+        font-size: 0.9em
+  &-c1:hover
+    background-color: #DFD0FB
+    transition: all 0.5s ease
+  &-c2
+    background-color: #D6CDD9
+    border-radius: 15px
+    transition: all 0.5s ease
+  &-c3 
+    background-color: #FFD6E3
+    background-repeat: repeat-x
+    background-position: center center // centro horizontal y vertical
+    height: 40px
+    display: flex
+    align-items: center
+    justify-content: center 
+
+    @media screen and (max-width: $bp-max-sm)
+      background-repeat: repeat
+      background-position: center top 
+      height: auto
+  &-c4
+    background-image: url(../assets/curso/bg4.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+
+  &-c5
+    background-color: #DCD8F2
+    border: 4px solid #523DBF
+
+.tarjeta--C02
+  background-color: #B9B1E5
+
+.tarjeta--C02.acordion__activo
+  background-color: #EAE7FB
+
+.tarjeta--BG05
+  background-image: url("../assets/curso/BG05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tabs-c__content-item
+  background-color: #DCD8F2
+.tabs-c__tab
+  background-color: #FBFFD0
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+
+.slyder-a__bullets__item
+  background-color: #523DBF
+
+.tarjeta--BG02
+  background-image: url("../assets/curso/fondo-slyder.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: 50%
+  height: 100%
+  h4, p
+    color: #000
+  
+.tarjeta--slyder
+  background-color: #fff
+  box-shadow: inset 2px 2px 5px #EAEAF0
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #EAE7FB !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #B9B1E5
+.tarjeta.tarjeta--gris
+  background-color: #FBFFD0
+
+.linea-tiempo-d__item__content__title
+  height: 50px
+
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  border: 3px solid #F1FF64
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none

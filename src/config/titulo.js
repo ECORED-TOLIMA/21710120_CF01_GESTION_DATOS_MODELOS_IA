@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Clasificación de datos en modelos de inteligencia artificial'
